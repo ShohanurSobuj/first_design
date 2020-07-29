@@ -1,0 +1,58 @@
+a:not([href]):not([tabindex]) {
+  color: crimson;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+p {
+  margin-top: -10px;
+  margin-bottom: 1rem;
+}
+.right-nav ul {
+  border-radius: 5px;
+  padding: 5px;
+}
+.navbar {
+  border-bottom: 2px solid #e2e2e2;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: antiquewhite;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: antiquewhite;
+}
+.title {
+  margin-top: 10px;
+  font-family: lato;
+  text-align: center;
+  font-style: italic;
+}
+.carousel-indicators li {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
+}
+.service {
+  color: white;
+  background-color: #dc3546;
+  text-align: center;
+  width: 121px;
+  border-radius: 3px;
+  margin: inherit;
+}
+.card {
+  display: inline-block;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 5px;
+}
+.ftr {
+  border-bottom: 2px solid #e2e2e2;
+}
